@@ -1,0 +1,385 @@
+.container {
+  width: 100%;
+}
+/* Blog Posts */
+.blog-posts {
+  padding-top: 70px;
+  width: 100%;
+  height: 370px;
+  background-color: #f0ecf9;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog-posts .title1 {
+  color: #6e42c166;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1.6px;
+  line-height: 20.4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-posts .title2 {
+  color: #6f42c1;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0px 0px 16px;
+  text-align: center;
+}
+
+.blog-posts .desc {
+  width: 550px;
+  color: #808080;
+  line-height: 27.2px;
+  margin: 0px 0px 48px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* News */
+
+.news {
+  max-width: 100%;
+  padding-top: 100px;
+}
+
+.news .title {
+  font-family: "Poppins", sans-serif;
+  color: #6f42c1;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 0px 0px 24px;
+  text-align: center;
+}
+
+.news .desc {
+  color: #808080;
+  line-height: 27.2px;
+  margin: 0px 0px 16px;
+  text-align: center;
+  font-size: 13px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* Post */
+
+.posts {
+  width: 100%;
+  height: fit-content;
+  margin: 70px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  margin-left: 20px;
+}
+
+.post {
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.post img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+}
+
+.post .time {
+  background-color: #6f42c1;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  line-height: 20.4px;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: -20px;
+  z-index: 999;
+}
+
+.post .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #80808084;
+  margin: 10px 0;
+}
+.post .author,
+.post .comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  gap: 0 10px;
+}
+
+.post .title {
+  color: #6f42c1;
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  margin: 0 auto;
+}
+
+.news-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.news-nav-item {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #6f42c1;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.news-nav-item.choosed {
+  background-color: #f8f5fc;
+  color: #6f42c1;
+}
+
+#footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 120px;
+  align-items: center;
+}
+
+#footer .row {
+  display: flex;
+}
+
+#footer .row .col1 {
+  max-width: 30%;
+  padding-right: 50px;
+}
+
+#footer .row .col2,
+#footer .row .col3,
+#footer .row .col4 {
+  padding-right: 80px;
+}
+
+.col1 p {
+  line-height: 35px;
+  opacity: 0.7;
+  margin-bottom: 60px;
+}
+
+.col1 a {
+  padding-right: 30px;
+  margin-top: 30px;
+  color: #845dce;
+}
+
+.col1 h2,
+.col2 h2,
+.col3 h2,
+.col4 h2 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-weight: 50;
+}
+
+.col2 .links,
+.col3 .links,
+.col4 .links {
+  margin-bottom: 15px;
+}
+
+.col2 .links a,
+.col3 .links a,
+.col4 .links a {
+  font-weight: 550;
+  color: #845dce;
+}
+
+#footer .last-item {
+  margin-top: 120px;
+}
+
+#footer .last-item p {
+  font-size: 18px;
+}
+
+.last-item p a {
+  color: #6f42c1;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.menu .fa-times,
+.header .menu_toggle {
+  display: none;
+}
+
+.subnav-mobile,
+.subnav2-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 100%;
+    padding: 0 100px;
+  }
+  .header .menu_toggle {
+    display: block;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .header {
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+  }
+
+  .header .menu {
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    border: none;
+    z-index: 100;
+    width: 300px;
+    height: 100vh;
+    margin-top: 0;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255);
+    transform: translateX(110%);
+    transition: 1s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .header .menu .nav-item {
+    color: black;
+    margin: 20px 0;
+    font-size: 20px;
+  }
+  .header .menu .fa-times {
+    display: block;
+    position: fixed;
+    font-size: 30px;
+    top: 10px;
+    right: 20px;
+  }
+  .header .menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .subnav,
+  .subnav2 {
+    display: none;
+  }
+
+  .subnav-mobile,
+  .subnav2-mobile {
+    position: relative;
+    display: block;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    height: 0;
+    gap: unset;
+  }
+
+  .subnav-mobile .subnav-item,
+  .subnav2-mobile .subnav-item {
+    padding: 10px;
+    margin: unset;
+    font-size: 14px;
+  }
+
+  .subnav-mobile.active {
+    height: 200px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .subnav2-mobile.active {
+    height: 200px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Post */
+  .posts {
+    width: 100%;
+    height: fit-content;
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 30px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: fit-content;
+    margin-top: 50px;
+  }
+  .footer-item {
+    margin: 20px 0 !important;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .posts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: fit-content;
+    margin-top: 50px;
+  }
+
+  .desc {
+    width: 100% !important;
+  }
+}

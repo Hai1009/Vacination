@@ -1,0 +1,76 @@
+:root{
+    --bg1:rgba(130, 219, 219, 0.87);
+    --bg2:rgb(231, 156, 231);
+}
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(to bottom right, var(--bg2), var(--bg1));
+}
+.form-login{
+    width: 35%;
+    height:60%;
+    background-color:white;
+    border-radius: 10px;
+    margin: 20px;
+}
+.form-login h3{
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(130, 219, 219, 0.1) 0px 1px 2px 0px;
+}
+.form-login .submitbtn input{
+    height: 35px;
+    width: 90%;
+    margin-bottom: 30px;
+    background: linear-gradient(120deg, var(--bg2), var(--bg1), var(--bg2));
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-size: 200%;
+}
+.form-login .submitbtn input:hover{
+    background-position: right;
+}
+.form-text{
+    margin: 60px 0;
+    position: relative;
+}
+.form-text input{
+    width:90%;
+    height:35px;
+    border:none;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+}   
+.form-text label{
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+    transition: 0.9s;
+}
+.form-text label.focus{
+    transform: translateY(-30px);
+}
+
+.help_info-forgot {
+    color: black;
+
+}
+
+.help_info-forgot:hover {
+    color: rgb(231, 156, 231);
+}

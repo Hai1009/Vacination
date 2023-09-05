@@ -1,0 +1,415 @@
+/* CSS for laptop */
+@media screen and (min-width : 64em){
+/* css for Section */
+.site-section{
+    height:441px;
+    width:100%;
+    padding:90px 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-section .hero-v1 .row-form .col{
+    line-height: 27.2px;
+}
+.site-section .hero-v1 .row-form .col .row{
+    width:100%;
+    margin:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+    margin-top: 80px;
+    padding:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+    padding:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color:#808080;
+    padding:0 0 0 0;
+}
+/* CSS for FormContact */
+#rowformcontact{
+    display: flex;
+    height: 807.8px;
+    width: 1519px;
+    padding: 90px 0 90px 0;
+}
+.colform{
+    width: 543px;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-right: 127px;
+    margin-bottom: 223px;
+}
+.colform .row{
+    margin-top: 24px;
+}
+.colform .row label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #808080;
+    margin-bottom: 5px;
+}
+.colform .row input{
+    height: 43px;
+    width: 540px;
+    margin-left: 10px;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+}
+.colform .row textarea{
+    width: 540px;
+    margin-left: 10px;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+}
+.colform .rowbtn{
+    margin-top: 24px;
+}
+.colform .rowbtn input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #6F42C1;
+    color: white;
+    height: 40px;
+    width: 154px;
+    border:1px solid white;
+    border-radius: 20px;
+    box-shadow: none;
+}
+.colcontact{
+    height: 627px;
+    width: 475px;
+    padding: 0 15px 0 15px;
+    margin-top: 65px;
+    margin-right: 399px;
+    margin-bottom: 223px;
+}
+.colcontact .row{
+    display: flex;
+    width: 445px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.colcontact .rowcontent .row .col1{
+    color: #6F42C1;
+    width: 40px;
+}
+.colcontact .row .col p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 20px;
+    color: #808080;
+    text-align: left;
+}
+.colcontact .row .col a{
+    color:#6F42C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.required{
+    color:red;
+}
+}
+/* CSS for tablet */
+@media screen and (min-width : 46.25em) and (max-width:63.9375em){
+/* css for Section */
+.site-section .hero-v1{
+    height:174px;
+    width:837px;
+    padding:128px 0 128px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+    position: relative;
+}
+.site-section .hero-v1 .row-form{
+    top:55px;
+    height:174px;
+    width:95%;
+    position: absolute;
+}
+.site-section .hero-v1 .row-form .col{
+    width:89%;
+    line-height: 27.2px;
+    padding:0 0 0 0;
+    margin: 0 0 0 80px;
+}
+.site-section .hero-v1 .row-form .col .row{
+    margin:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row span{
+    height:20px;
+    width:690px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+}
+.site-section .hero-v1 .row-form .col .row h1{
+    height:36px;
+    width:690px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 36px;
+    color:#6F42C1;
+}
+.site-section .hero-v1 .row-form .col .row p{
+    height:54px;
+    width:690px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color:#808080;
+    margin-bottom: 48px;
+}
+/* CSS for FormContact */
+#rowformcontact{
+    height: 962px;
+    width: 100%;
+    padding: 70px 0 90px 0;
+    margin: 0 0 0 0;
+}
+.colform{
+    height: 640px;
+    width: 88%;
+    margin: 0 0 0 80px;
+}
+.colform .row{
+    margin: 20px 0 20px 0;
+}
+.colform .row .rowtext{
+    width: 200px;
+}
+.colform .row label{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27.2px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 8px;
+}
+.colform .row input{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.colform .row textarea{
+    height: 220px;
+    width: 100%;
+    padding:6px 12px 6px 12px;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+.colform .rowbtn{
+    width: 200px;
+    margin-top: 20px;
+}
+.colform .rowbtn input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #6F42C1;
+    color: white;
+    height: 40px;
+    border:1px solid white;
+    border-radius: 18px;
+}
+.colcontact{
+    height: 627px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 110px 0 0 80px;
+}
+.colcontact .row{
+    display: flex;
+    width: 445px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.colcontact .rowcontent .row .col1{
+    color: #6F42C1;
+    width: 40px;
+}
+.colcontact .row .col p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 20px;
+    color: #808080;
+    text-align: left;
+}
+.colcontact .row .col a{
+    color:#6F42C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.required{
+    color:red;
+}
+}
+/* CSS for mobile */
+@media screen and (max-width : 46.1875em){
+    /* css for Section */
+.site-section .hero-v1{
+    height:202px;
+    width:100%;
+    padding:128px 0 128px 0;
+    background-color: rgba(111, 66, 193, 0.1);
+    position: relative;
+}
+.site-section .hero-v1 .row-form{
+    top:55px;
+    height:202px;
+    width:92%;
+    margin-left: 30px;
+    position: absolute;
+}
+.site-section .hero-v1 .row-form .col{
+    width:89%;
+    line-height: 27.2px;
+    padding:0 0 0 0;
+    margin: 0 0 0 30px;
+}
+.site-section .hero-v1 .row-form .col .row{
+    margin:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row span{
+    padding:0 0 0 0;
+    text-align:center;
+    height:20.4px;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+}
+.site-section .hero-v1 .row-form .col .row h1{
+    padding:0 0 0 0;
+    text-align:center;
+    height:20.4px;
+    width:80%;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 36px;
+    color:#6F42C1;
+    margin-bottom: 20px;
+}
+.site-section .hero-v1 .row-form .col .row p{
+    padding:0 0 0 0;
+    text-align:center;
+    height:81px;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color:#808080;
+    margin-bottom: 48px;
+}
+/* CSS for FormContact */
+#rowformcontact{
+    height: 962px;
+    width: 95%;
+    padding: 70px 0 90px 0;
+    margin-left: 15px;
+    margin-right: 0;
+}
+.colform{
+    margin:0 0 0 0;
+    height: 640px;
+    width: 88%;
+}
+.colform .row{
+    margin-top: 10px;
+}
+.colform .row label{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27.2px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 8px;
+}
+.colform .row input{
+    height: 45px;
+    width: 450px;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.colform .row textarea{
+    height: 220px;
+    width: 450px;
+    padding:6px 12px 6px 12px;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+.colform .rowbtn input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #6F42C1;
+    color: white;
+    height: 40px;
+    width: 154px;
+    border:1px solid white;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+.colcontact{
+    height: 627px;
+    width: 80%;
+    padding: 0 15px 0 15px;
+    margin-top: 65px;
+    margin-bottom: 223px;
+    margin-left: 0;
+    margin-right:0;
+}
+.colcontact .row{
+    display: flex;
+    width: 445px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.colcontact .rowcontent .row{
+    width: 100%;
+}
+.colcontact .rowcontent .row .col1{
+    color: #6F42C1;
+    width: 40px;
+}
+.colcontact .row .col p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 20px;
+    color: #808080;
+    text-align: left;
+}
+.colcontact .row .col a{
+    color:#6F42C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.required{
+    color:red;
+}
+}

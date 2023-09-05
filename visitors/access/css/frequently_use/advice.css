@@ -1,0 +1,128 @@
+#advice{
+    height: 822.625px;
+    width: 100%;
+    padding: 80px 0 40px 0;
+}
+#advice .row1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+#advice .row1 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #808080;
+}
+#advice .row1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #6f42c1;
+}
+#advice .row1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #808080;
+}
+#advice .colcontent{
+    display: flex;
+    padding: 48px 0 0 0;
+}
+#advice .colcontent .col1{
+    margin-left: 204px;
+}
+#advice .colcontent .rowtitle h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: black;
+}
+#advice .colcontent .rowcontent .flex{
+    display: flex;
+    margin-top: 25px;
+}
+#advice .colcontent .rowcontent .colicons{
+    color: greenyellow;
+}
+#advice .colcontent .rowcontent .colicon{
+    color: rgb(224, 106, 106);
+}
+#advice .colcontent .col2{
+    margin-left: 90px;
+}
+#advice .colcontent .rowcontent .flex .col{
+    padding: 0 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #808080;
+}
+
+.contentvsimg {
+    display: flex;
+}
+
+.contentvsimg img {
+    width: 90%;
+    height: 90%;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 1023px) {
+    #advice {
+        height: 570px;
+        margin-bottom: 4rem;
+    }
+
+    #advice .row1 {
+        margin-bottom: 2rem;
+    }
+
+    .colimg {
+        display: none;
+    }
+
+    #advice .contentvsimg {
+        width: auto;
+        justify-content: center;
+    }
+
+    #advice .colcontent {
+        padding: 0;
+        
+    }
+
+    #advice .colcontent .col1,
+    #advice .colcontent .col2 {
+        width: 300px;
+        margin: 0;
+    }
+
+    #advice .colcontent .rowtitle h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #advice .colcontent .rowcontent .flex {
+        margin-top: 18px;
+        align-items: center;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    #advice {
+        height: auto;
+    }
+
+    .colcontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #advice .colcontent .col1 {
+        margin-bottom: 2rem;
+    }
+}

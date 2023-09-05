@@ -1,0 +1,872 @@
+/* CSS for laptop */
+@media screen and (min-width : 64em){
+:root {
+    --prm-color: #0381ff;
+    --prm-gray: #b1b1b1;
+}
+
+
+/* CSS */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--prm-gray);
+    transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+    width: 60px;
+    height: 60px;
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.done {
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.step-item {
+    z-index: 10;
+    text-align: center;
+}
+
+#progress {
+  -webkit-appearance:none;
+    position: absolute;
+    width: 95%;
+    z-index: 5;
+    height: 10px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+    background-color: var(--prm-color);
+    transition: .5s ease;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: var(--prm-gray);
+
+}
+.card{
+    border:1px solid white;
+}
+
+/* CSS for section */
+.site-section{
+    padding:90px 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-section .hero-v1 .row-form .col{
+    line-height: 27.2px;
+}
+.text-center h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6F42C1;
+    font-size: 35px;
+    font-weight: 900;
+}
+.site-section .hero-v1 .row-form .col .row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+    margin-top: 80px;
+}
+.site-section .hero-v1 .row-form .col .row h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+}
+.site-section .hero-v1 .row-form .col .row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color:#808080;
+}
+/* CSS for step 1*/
+#form_get_vaccinated{
+    height: 807.8px;
+    width: 1519px;
+    padding: 90px 0 90px 0;
+}
+.row1{
+    margin-left: 70px;
+}
+.row1 h6{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color:#6F42C1;
+}
+.row2{
+    margin-left: 80px;
+    display:flex;
+}
+.rowstep1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color:#000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.rowstep1 input{
+    width:90%;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.rowstep1 select{
+    font-size: 16px;
+    width:355px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+select{
+    font-size: 16px;
+    width:355px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.rowstep1 span{
+    color:red;
+}
+.rowbtn{
+    display:flex;
+}
+.rowbtnctn input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 50px;
+}
+.rowbtncancel input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: rgb(224, 106, 106);
+    margin-top: 31px;
+    margin-left: 475px;
+}
+/* CSS for step 2 */
+.row{
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#808080;
+    display: flex;
+}
+.row .col p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#808080;
+}
+.row .col input{
+    margin-left: 20px;
+}
+.row h4{
+    color:#6F42C1
+}
+.rowbtn2{
+    display:flex;
+}
+
+.rowbtnctn2 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 50px;
+}
+.rowbtncancel2 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: rgb(224, 106, 106);
+    margin-top: 31px;
+    margin-left: 500px;
+}
+
+/* CSS for step 3 */
+.site-sections{
+    height:441px;
+    width: auto;
+    padding:90px 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-sections .hero-v1s .row-forms .col{
+    line-height: 27.2px;
+}
+.site-sections .hero-v1s .row-forms .col .row h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+}
+.site-sections .hero-v1s .row-forms .col .row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color:#808080;
+}
+
+.rowbtnctn3 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 550px;
+}
+}
+/* CSS for tablet */
+@media screen and (min-width : 46.1875em) and (max-width:64em){
+:root {
+    --prm-color: #0381ff;
+    --prm-gray: #b1b1b1;
+}
+section{
+  width:100%;
+}
+/* CSS */
+.steps {
+    width:710px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--prm-gray);
+    transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+    width: 60px;
+    height: 60px;
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.done {
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.step-item {
+    z-index: 10;
+    text-align: center;
+}
+
+#progress {
+  -webkit-appearance:none;
+    position: absolute;
+    width: 95%;
+    z-index: 5;
+    height: 10px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+    background-color: var(--prm-color);
+    transition: .5s ease;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: var(--prm-gray);
+
+}
+.card{
+    border:1px solid white;
+}
+.container{
+    padding:0 0 0 0;
+}
+.text-center{
+    margin-top:20px;
+}
+
+/* CSS for section */
+.site-section{
+    width:96.7%;
+    padding:90px 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-section .hero-v1 .row-form .col .row{
+    margin-right: 0;
+}
+.site-section .hero-v1 .row-form .col{
+    line-height: 27.2px;
+}
+.text-center h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6F42C1;
+    font-size: 30px;
+    font-weight: 900;
+}
+.site-section .hero-v1 .row-form .col .row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+    margin-top: 0;
+    padding:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+    padding:0 0 0 0;
+}
+.site-section .hero-v1 .row-form .col .row p{
+    width:730px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color:#808080;
+    padding:0 0 0 0;
+}
+/* CSS for step 1*/
+#form_get_vaccinated{
+    height: 807.8px;
+    width: 1519px;
+    padding: 90px 0 90px 0;
+}
+.card-body{
+    padding: 0 0 0 0;
+}
+.row1{
+    margin-left: 20px;
+}
+.row1 h6{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color:#6F42C1;
+}
+.row2{
+    margin-left: 20px;
+}
+.rowstep1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color:#000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.rowstep1 input{
+    width:640px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.rowstep1 select{
+    font-size: 16px;
+    width:640px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+select{
+    font-size: 16px;
+    width:640px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.rowstep1 span{
+    color:red;
+}
+.rowbtn{
+    display:flex;
+}
+.rowbtnctn input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 50px;
+}
+.rowbtncancel input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: rgb(224, 106, 106);
+    margin-top: 31px;
+    margin-left: 170px;
+}
+/* CSS for step 2 */
+.row{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#808080;
+}
+.row .col p{
+    width: 450px;
+}
+.row .col input{
+    margin-left: 20px;
+}
+.row h4{
+    font-size: 20px;
+    color:#6F42C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.rowbtn2{
+    display:flex;
+}
+.rowbtnctn2 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 50px;
+}
+.rowbtncancel2 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: rgb(224, 106, 106);
+    margin-top: 31px;
+    margin-left: 170px;
+}
+
+/* CSS for step 3 */
+.site-sections{
+    height:441px;
+    width:97%;
+    padding:90px 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-sections .hero-v1s .row-forms .col .row{
+    margin:10px 0 0 0;
+}
+.site-sections .hero-v1s .row-forms .col{
+    margin-top: 50px;
+    line-height: 27.2px;
+}
+.site-sections .hero-v1s .row-forms .col .row h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+    padding:0 0 0 0;
+}
+.site-sections .hero-v1s .row-forms .col .row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color:#808080;
+    padding:0 0 0 0;
+}
+.rowbtnctn3 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+
+}
+#footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    text-decoration: none;
+    height:631.4px;
+    width:600px !important;
+    padding:0 0 0 0;
+    margin:140px 0 0 50px !important;
+}
+#footer .row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.8px;
+    line-height: 21.76px;
+    color: #808080;
+    width:80%;
+    height:150px;
+    margin:0 0 0 70px !important;
+    padding:48px 0 0 0;
+}
+}
+/* CSS for mobile */
+@media screen and (max-width : 46.1875em){
+:root {
+    --prm-color: #0381ff;
+    --prm-gray: #b1b1b1;
+}
+section{
+  width:100%;
+}
+/* CSS */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--prm-gray);
+    transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+    width: 60px;
+    height: 60px;
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.done {
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.step-item {
+    z-index: 10;
+    text-align: center;
+}
+
+#progress {
+  -webkit-appearance:none;
+    position: absolute;
+    width: 90%;
+    z-index: 5;
+    height: 10px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+    background-color: var(--prm-color);
+    transition: .5s ease;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: var(--prm-gray);
+
+}
+.card{
+    border:1px solid white;
+}
+.text-center{
+    margin-top:20px;
+}
+
+/* CSS for section */
+.site-section{
+    padding:0 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-section .hero-v1 .row-form .col{
+    line-height: 27.2px;
+}
+.text-center h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6F42C1;
+    font-size: 25px;
+    font-weight: 900;
+}
+.site-section .hero-v1 .row-form .col .row{
+    margin:0 0 0 10px;
+}
+.site-section .hero-v1 .row-form .col .row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+    margin-top: 80px;
+}
+.site-section .hero-v1 .row-form .col .row h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+}
+.site-section .hero-v1 .row-form .col .row p{
+    width:100%;
+    padding:0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 27.2px;
+    color:#808080;
+    margin-right: 10px;
+}
+/* CSS for step 1*/
+#form_get_vaccinated{
+    height: 807.8px;
+    width: 1519px;
+    padding: 90px 0 90px 0;
+}
+.row1 h6{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color:#6F42C1;
+}
+.rowstep1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    color:#000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.rowstep1 input{
+    width:325px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.rowstep1 select{
+    font-size: 16px;
+    width:325px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+select{
+    font-size: 16px;
+    width:325px;
+    height: 38px;
+    border:1px solid #808080;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.rowstep1 span{
+    color:red;
+}
+.rowbtn{
+    display:flex;
+}
+.rowbtnctn input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 30px;
+}
+.rowbtncancel input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: rgb(224, 106, 106);
+    margin-top: 31px;
+}
+/* CSS for step 2 */
+.row{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#808080;
+}
+.row .col p{
+    width: 200px;
+}
+.row .col input{
+    margin-left: 20px;
+}
+.row h4{
+    font-size: 20px;
+    color:#6F42C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.rowbtn2{
+    display:flex;
+}
+.rowbtnctn2 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 50px;
+}
+.rowbtncancel2 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: rgb(224, 106, 106);
+    margin-top: 31px;
+    margin-left: 40px;
+}
+
+/* CSS for step 3 */
+.site-sections{
+    padding:90px 0 90px 0;
+    text-align: center;
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.site-sections .hero-v1s .row-forms .col{
+    line-height: 27.2px;
+}
+.text-center h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6F42C1;
+    font-size: 25px;
+    font-weight: 900;
+}
+.site-sections .hero-v1s .row-forms .col .row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 20.4px;
+    color:rgba(111, 66, 193, 0.5);
+    margin-top: 80px;
+}
+.site-sections .hero-v1s .row-forms .col .row h1{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48px;
+    color:#6F42C1;
+}
+.site-sections .hero-v1s .row-forms .col .row p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 27.2px;
+    color:#808080;
+}
+.rowbtnctn3 input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white;
+    height:42px;
+    width:150px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: #6F42C1;
+    margin-top: 31px;
+    margin-left: 150px;
+}
+}

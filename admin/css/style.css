@@ -1,0 +1,45 @@
+/* Start:title */
+.text-center {
+    text-align: center!important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.form1{
+    margin-left: 80px;
+}
+.form1 input{
+    width:93%;
+    height:45px;
+    border: 1px solid #ced4d4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button{
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+}
+#create{
+    margin-right: 80px;
+}
+.form-group{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+/* End:title */
+
+/* Start:table */
+.form2{
+    display: flex;
+    margin-left: 150px;
+    width:80%;
+}
+.form2 tr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.thead{
+    border-bottom: 2px solidrgb(52, 58, 64);
+}
+/* End:table */
